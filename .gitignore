@@ -1,0 +1,25 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large datasets & raw heavy files
+data/
+datasets/
+*.zip
+*.tar.gz
+*.csv
+
+# Model weights & serialized objects (Github pe 100MB+ push block hota hai)
+*.pkl
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
