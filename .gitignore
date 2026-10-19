@@ -2,6 +2,11 @@
 venv/
 .venv/
 env/
+MarvellousCNNProject/CrackDataset
+MarvellousCNNProject/Processed_CrackDataset 
+MarvellousCNNenv/
+MarvellousRNNenv/
+MarvellousLLMenv/
 
 # Python cache
 __pycache__/
@@ -13,13 +18,20 @@ datasets/
 *.zip
 *.tar.gz
 *.csv
+*.png
+
 
 # Model weights & serialized objects (Github pe 100MB+ push block hota hai)
+*.keras
 *.pkl
 *.h5
 *.pt
 *.pth
 *.onnx
 
+
 # Jupyter checkpoints
 .ipynb_checkpoints/
+
+*.vscode/
+*.json
