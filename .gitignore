@@ -2,11 +2,6 @@
 venv/
 .venv/
 env/
-MarvellousCNNProject/CrackDataset
-MarvellousCNNProject/Processed_CrackDataset 
-MarvellousCNNenv/
-MarvellousRNNenv/
-MarvellousLLMenv/
 
 # Python cache
 __pycache__/
